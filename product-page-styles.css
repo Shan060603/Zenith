@@ -1,0 +1,303 @@
+body {
+    background-color: black !important;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+nav {
+    background-color: black;
+    opacity: 1;
+}
+
+.navbar-custom {
+    padding-top: 8px;
+    font-size: 70%;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.nav-link {
+    color: white !important;
+    margin-left: 10px;
+}
+
+.nav a {
+    color: white !important;
+}
+
+.navbar-brand {
+    color: white !important;
+    font-weight: bolder;
+    margin-left: 20px;
+    background-color: black !important;
+    opacity: 1 !important;
+}
+
+.btn-dark {
+    margin-left: 10px;
+    margin-right: 2px;
+}
+
+.btn a {
+    color: white;
+}
+
+nav ul li {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.searchbar {
+    width: 500px !important;
+    background-color:rgba(49, 48, 48, 0) !important;
+    border: 1px solid white;
+    margin-right: 10px;
+    padding: 8px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+input.searchbar {
+    color: white !important;
+}
+
+.container {
+    width: 100%;
+}
+
+.hero-section {
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 250px;
+    display: flex;
+    width: 100%;
+}
+
+.slogan {
+    padding-top: 50px;
+    width: px;
+    font-size: larger;
+    height: 150px;
+}
+
+.introduction {
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-top: 50px;
+    padding-bottom: 200px;
+    color: lightgray;
+}
+
+.typewriter h1 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid white; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 5.5s steps(40, end),
+      blink-caret .75s step-end;
+      border-right: .15em solid transparent;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: white; }
+}
+
+.fade-in-text {
+    animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.mission-statement {
+    color: white;
+    float: left;
+    padding-top: 150px;
+    padding-bottom: 500px;
+    padding-left: 100px;
+    padding-right: 1000px;
+}
+
+.div-title {
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+section {
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 100vh;
+}
+
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+.spacecraft-label {
+    display: flex;
+}
+
+.img-size {
+    width: 250px;
+    height: 250px;
+}
+
+.product-img-size {
+    width: 859px;
+    height: 483px;
+}
+
+.product-title {
+    color: white;
+}
+
+.product-description {
+    width: 50%;
+    margin-left: 20px;
+}
+
+.product-img {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.product-menu {
+    border: 5px solid white;
+    border-radius: 15px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 50px;
+}
+
+.product-menu > a {
+    text-decoration: none !important;
+}
+
+.product-menu-button {
+    background: transparent;
+    border: none;
+    padding: 20px;
+}
+
+.card {
+    color: white !important;
+    margin: 10px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7) !important;
+    backdrop-filter: blur(5px) !important;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    grid-auto-rows: auto; /* Auto-sized rows */
+    grid-gap: 1rem;
+}
+
+.spacecraft.hidden.card.show:hover {
+    background-color: whitesmoke !important;
+    color: black;
+}
+
+#a:hover  #b {
+    color: black;
+}
+
+.center-content {
+    display: flex;
+    align-items: center;
+}
+
+.right-content {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+.spacecraft-info {
+    border: 5px solid white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    margin-top: 40px;
+}
+
+.spacecraft-specs {
+    display: inline-block;
+}
+
+.numberOfProducts {
+    width: 50px;
+}
+
+
+

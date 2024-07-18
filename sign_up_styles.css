@@ -1,0 +1,190 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white !important;
+    background-color: black !important;
+}
+
+* {
+    border-radius: 15px;
+    margin: 10px;
+}
+
+h1 {
+    text-align: center !important;
+}
+
+p {
+    text-align: center;
+}
+
+nav {
+    background-color: black;
+    opacity: 1;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav a {
+    color: white !important;
+}
+
+.navbar-brand {
+    color: white !important;
+    font-weight: bolder;
+    margin-left: 20px;
+    background-color: black !important;
+    opacity: 1 !important;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+a {
+  color: white !important;
+  text-decoration: none !important;
+}
+
+.table-container > table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+th {
+  background-clip: padding-box; /* this has been added */
+    border-radius: 5px;
+    background-color: #369;
+    color: white;
+    border: 5px solid white;
+    text-align: center;
+}
+
+thead {
+  text-align: center;
+}
+
+td {
+  background-clip: padding-box; /* this has been added */
+    border-radius: 5px;
+    background-color: #369;
+    color: white;
+    border: 5px solid white;
+    text-align: center;
+}
+
+.table-container {
+  width: 95%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.table-image {
+  width: 100px;
+  height: 100px;
+}
+
+.account-container {
+  display: flex;
+  width: 100%;
+}
+
+.table-container-user {
+  width: 75%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.user-details {
+  width: 25%;
+  height: 60vh;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 23px;
+  height: 24px;
+  border: 0;
+  background: url('images/RocketIconBlack.png');
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 23px;
+  height: 25px;
+  border: 0;
+  background: url('images/RocketIconBlack.png');
+  cursor: pointer;
+}
+
+.filter-spacecraft {
+  display: flex;
+  width: 100%;
+}
+
+.left-container {
+  width: 25%;
+  border: 3px solid white;
+  border-radius: 15px;
+  height: 64vh;
+  margin-left: 1.5vw;
+}
+
+.right-container {
+  width: 75%;
+  margin-right: 2vw;
+}
+
+.filter-input {
+  width: 80%;
+}
